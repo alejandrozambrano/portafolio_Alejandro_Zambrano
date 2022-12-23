@@ -42,8 +42,8 @@ header {
 }
 
 .nav-header-container .nav-profile-link {
-    padding: 15px;
-    width: 300px;
+    padding: 12px;
+    width: 350px;
     display: flex;
     justify-items: flex-end;
     text-align: end;
@@ -61,4 +61,24 @@ header {
 
 .nav-profile-link a:hover {
     text-decoration: underline;
+}
+
+.profile-main-container {
+    display: flex;
+    align-items: center;
+    background-color: cyan;
+}
+
+.name-profile {
+    text-align: center;
+}
+
+.description-profile {
+    padding: 25px;
+    text-align: justify;
+}
+
+.main-photo{
+    border-radius: 1000px;
+    padding: 20px;
 }
