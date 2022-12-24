@@ -39,6 +39,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: salmon;
 }
 
 .nav-header-container .nav-profile-link {
@@ -50,8 +51,9 @@ header {
     justify-content:space-between;
 }
 .header-img {
-    width: 125px;
+    width: 100px;
     height: 30px;
+    padding-left: 15px;
 }
 
 
@@ -63,22 +65,27 @@ header {
     text-decoration: underline;
 }
 
-.profile-main-container {
+.profile-main-container-description {
     display: flex;
     align-items: center;
-    background-color: cyan;
+    margin: 0 90px;
+    justify-content: space-between ;
 }
 
 .name-profile {
-    text-align: center;
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 30px;
 }
 
 .description-profile {
-    padding: 25px;
-    text-align: justify;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: 80%;
 }
 
-.main-photo{
+.main-photo {
     border-radius: 1000px;
-    padding: 20px;
+    padding: 10px;
 }
