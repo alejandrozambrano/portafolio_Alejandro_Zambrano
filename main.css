@@ -35,6 +35,31 @@ header {
    
 }
 
+.img-faceBook {
+    width: 35px;
+    height: 20px;
+}
+
+.img-twitter {
+    width: 35px;
+    height: 20px; 
+}
+
+.img-instagram {
+    width: 40px;
+    height: 22px; 
+}
+
+.img-linkedIn {
+    width: 55px;
+    height: 25px; 
+}
+
+.img-youTube {
+    width: 30px;
+    height: 25px; 
+}
+
 .nav-header-container {
     display: flex;
     justify-content: space-between;
@@ -56,7 +81,6 @@ header {
     padding-left: 15px;
 }
 
-
 .nav-home-container a:hover {
     text-decoration: underline;
 }
@@ -68,7 +92,7 @@ header {
 .profile-main-container-description {
     display: flex;
     align-items: center;
-    margin: 0 90px;
+    margin: 22px 90px;
     justify-content: space-between ;
 }
 
@@ -88,4 +112,34 @@ header {
 .main-photo {
     border-radius: 1000px;
     padding: 10px;
+}
+
+.profile-main-container-tech-skills {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.img-html {
+    width: 80px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.img-ccs3 {
+    width: 60px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.img-JS {
+    width: 110px;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.img-GitHub {
+    width: 110px;
+    height: 50px;
+    margin-top: 25px;
 }
