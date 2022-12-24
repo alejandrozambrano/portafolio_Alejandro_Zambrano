@@ -13,6 +13,7 @@ a {
     bottom: 0;
     left: 0;
     right: 0;
+    overflow-y: scroll;
 }
 header {
     width: 100%;
@@ -114,7 +115,7 @@ header {
     padding: 10px;
 }
 
-.profile-main-container-tech-skills {
+.skills-main-container {
     display: flex;
     justify-content: space-between;
     padding: 30px;
